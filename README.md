@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @xMelon74 or Alex
+- 👋 Hi, I’m @alex-j-miller or Alex
 - 🎓 I’m studying at Calvin University
 - 📖 I’m currently studying Computer Science
 
