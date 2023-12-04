@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @alex-j-miller or Alex
-- 🎓 I’m studying at Calvin University
+- 🎓 I’m attending Calvin University
 - 📖 I’m currently studying Computer Science
 
 <!---
