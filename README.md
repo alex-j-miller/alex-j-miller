@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @alex-j-miller or Alex
 - 🎓 I’m attending Calvin University
-- 📖 I’m currently studying Computer Science
+- 📖 I’m currently studying Computer Science and Data Science
 
 <!---
 xMelon74/xMelon74 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
