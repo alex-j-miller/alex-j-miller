@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @alex-j-miller or Alex
-- 🎓 I’m attending Calvin University
-- 📖 I’m currently studying Computer Science and Data Science
+- 🎓 I graduated from Calvin University
+- 📖 I studied Computer Science and Data Science
 
 [![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alex-j-miller&show_icons=true&rank_icon=github)](https://github.com/anuraghazra/github-readme-stats)
 
