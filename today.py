@@ -258,7 +258,7 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
         loc = line.split()
         loc_add += int(loc[3])
         loc_del += int(loc[4])
-    return [loc_add, loc_del, loc_add - loc_del, cached]
+    return [loc_add, loc_del, loc_add - loc_del, cached, edges]
 
 
 def flush_cache(edges, filename, comment_size):
@@ -407,6 +407,20 @@ def follower_getter(username):
     return int(request.json()['data']['user']['followers']['totalCount'])
 
 
+def print_loc_per_repo(edges, data, comment_size):
+    """
+    Prints lines of code per repository
+    """
+    print('\nLines of code per repository:')
+    cache_data = data[comment_size:]
+    for index in range(len(edges)):
+        if index < len(cache_data):
+            loc = cache_data[index].split()
+            repo_name = edges[index]['node']['nameWithOwner']
+            net_loc = int(loc[3]) - int(loc[4])
+            print(f'  {repo_name}: {net_loc:,}')
+
+
 def query_count(funct_id):
     """
     Counts how many times the GitHub GraphQL API is called
@@ -449,17 +463,24 @@ if __name__ == '__main__':
     age_data, age_time = perf_counter(daily_readme, datetime.datetime(2003, 3, 19))
     formatter('age calculation', age_time)
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
-    formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
+    loc_data = total_loc[:-1]
+    edges = total_loc[-1]
+    formatter('LOC (cached)', loc_time) if loc_data[-1] else formatter('LOC (no cache)', loc_time)
     commit_data, commit_time = perf_counter(commit_counter, 7)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
-    for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index]) # format added, deleted, and total LOC
+    for index in range(len(loc_data)-2): loc_data[index] = '{:,}'.format(loc_data[index]) # format added, deleted, and total LOC
 
-    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data[:-1])
+    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data[:-1])
+
+    filename = 'cache/'+hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest()+'.txt'
+    with open(filename, 'r') as f:
+        cache_data = f.readlines()
+    print_loc_per_repo(edges, cache_data, 7)
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
