@@ -1,0 +1,356 @@
+{
+  "repositories": [
+    {
+      "hash": "ff96045da66f73ae9abf60b9f1a50082ba2f818dc8f400ac6dfef30dc66c175f",
+      "name": "alex-j-miller/alex-j-miller",
+      "commit_count": 39,
+      "my_commits": 22,
+      "additions": 800,
+      "deletions": 130
+    },
+    {
+      "hash": "8dd1366353a076ddefe9eae740d3a43c5f298d1b0116fb608fe7655868dfb1ee",
+      "name": "alex-j-miller/CS108",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 3981,
+      "deletions": 0
+    },
+    {
+      "hash": "a8023c39ddffd4f539da80e2c8d9b1d6369e807694eb8eee33065f36c8cb687a",
+      "name": "alex-j-miller/CS112",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 10499679,
+      "deletions": 0
+    },
+    {
+      "hash": "f614a7b428d052a3793a73979a41750453d71a2988c55eb1c07949da7873ff3c",
+      "name": "alex-j-miller/CS212",
+      "commit_count": 6,
+      "my_commits": 6,
+      "additions": 9237,
+      "deletions": 0
+    },
+    {
+      "hash": "fa2bfbfeb61804f6a19ef2dbb630e3e037b331cffb1f1f3155862228de897d58",
+      "name": "alex-j-miller/CS214",
+      "commit_count": 25,
+      "my_commits": 25,
+      "additions": 46773,
+      "deletions": 17413
+    },
+    {
+      "hash": "44ea4e73ef736789266e7d65f4c77c916ad74f2835fddb02ab8d37d6b0b5b7f3",
+      "name": "alex-j-miller/CS232",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 2583,
+      "deletions": 0
+    },
+    {
+      "hash": "5427d1dfc9d8d11408e55c5160fe334295e61ab4fc35abc11224a06e7d222640",
+      "name": "alex-j-miller/CS262",
+      "commit_count": 20,
+      "my_commits": 20,
+      "additions": 88257,
+      "deletions": 118
+    },
+    {
+      "hash": "677299144aea1bfd9bb689ae3e03f81ef9e5e453dce99c2bc48f2eda5c4831ef",
+      "name": "alex-j-miller/CS374",
+      "commit_count": 28,
+      "my_commits": 28,
+      "additions": 25972,
+      "deletions": 659
+    },
+    {
+      "hash": "b9803952966251324b1c89ae2e963d30043a122c03160e81fb7a60411cd38af5",
+      "name": "alex-j-miller/video-encode",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 393,
+      "deletions": 3
+    },
+    {
+      "hash": "238170cc431e77c00b320c8edaf5caac02cc4e2f7e8a84c8ecf6576ed8aaab86",
+      "name": "alex-j-miller/pychess",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 893,
+      "deletions": 3
+    },
+    {
+      "hash": "8d2325b973c07ed26ede66472ce035d33ca786af410b211b7de6f78556034881",
+      "name": "alex-j-miller/discord-date-planner",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "hash": "43baacb525c24a72a67d0f3842bd8f2ee1e439b13dbdfa3cfbeccffbb08c6a77",
+      "name": "alex-j-miller/CS375",
+      "commit_count": 5,
+      "my_commits": 5,
+      "additions": 7770,
+      "deletions": 0
+    },
+    {
+      "hash": "f8a0ae276e94db3f89592078dff0121ce50322f39fd397606442045888535792",
+      "name": "alex-j-miller/swim-cloud-web-scraper",
+      "commit_count": 5,
+      "my_commits": 5,
+      "additions": 24448,
+      "deletions": 181
+    },
+    {
+      "hash": "410a4d5f0a334ce6643532eed81ca4643b38c282cb6607173c07f32055335bc5",
+      "name": "alex-j-miller/CS354",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "hash": "86561b7b64ce8d21b7466fe0a033df4a9032830476d5462fb42e262bf4f493c1",
+      "name": "alex-j-miller/alex-j-miller.github.io",
+      "commit_count": 585,
+      "my_commits": 19,
+      "additions": 55731,
+      "deletions": 55612
+    },
+    {
+      "hash": "af22816b54f0bb75765aa6b9be529fa31a012e60ec9ea7ae5abeae3a762944f3",
+      "name": "alex-j-miller/react-guide",
+      "commit_count": 32,
+      "my_commits": 32,
+      "additions": 139626,
+      "deletions": 427
+    },
+    {
+      "hash": "2319c544fbce6a8bbe4ba34f065046bd4ad9c018f4199a92528c4933f897afa3",
+      "name": "alex-j-miller/tone-tune",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 249,
+      "deletions": 0
+    },
+    {
+      "hash": "9abdcf08913071defcec31bcb335cc148b15727056f6fc316ca8868d73d76613",
+      "name": "alex-j-miller/vr-nursing-data-analysis",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 7762,
+      "deletions": 0
+    },
+    {
+      "hash": "8eb4c0e4e579b8f77e412a8675bc7abb09154add7b734d2cd95e8524f2075d0f",
+      "name": "alex-j-miller/cypress-guide",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 53833,
+      "deletions": 499
+    },
+    {
+      "hash": "543ecad5cbabebf3aca3c8e4f06a8f8b80c15e794ee931b24346c9ea266e019c",
+      "name": "alex-j-miller/SplashStats",
+      "commit_count": 16,
+      "my_commits": 16,
+      "additions": 110527,
+      "deletions": 23394
+    },
+    {
+      "hash": "e53791acf36db33c08d8123e795fd39694db3c7b7c1d8d14283298b672e89ab1",
+      "name": "alex-j-miller/rupps-recipes",
+      "commit_count": 34,
+      "my_commits": 21,
+      "additions": 21243,
+      "deletions": 4407
+    },
+    {
+      "hash": "a076a6019c1071287af6c98ce2634c47f6eb4e81cd565f2ba6e067655c17d56b",
+      "name": "Wynncraft-Veterans/dazebot",
+      "commit_count": 184,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "53eefb4228419aab78fdbb480694f01bd31a15f832f8eef1e9203ede2d2d5750",
+      "name": "alex-j-miller/relay",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 217,
+      "deletions": 0
+    },
+    {
+      "hash": "a17d1b8adb79365fc001c9053f25e5f090201da97d4a57010eeb85fc4ba398e5",
+      "name": "Wynncraft-Veterans/website",
+      "commit_count": 215,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "0a455698ec43fa36df35b16c466e709be748e1a331a36df6fe8030de9a3fba42",
+      "name": "alex-j-miller/dotnet-guide",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "hash": "e53d64e9422458ef3771683db6ea0a091393c5ef2b8871c8967d9c7241788c0d",
+      "name": "alex-j-miller/ember-guide",
+      "commit_count": 5,
+      "my_commits": 5,
+      "additions": 51082,
+      "deletions": 16
+    },
+    {
+      "hash": "dccde5237c057409648cc3f0630ba3bbf6050704799aaf537d2b53b08e14b4aa",
+      "name": "alex-j-miller/swipebite",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "hash": "02e3c850faeacac05eb97e511f7f163e448b1bd9d874af0958646681f2c23b42",
+      "name": "alex-j-miller/resume",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 635,
+      "deletions": 199
+    },
+    {
+      "hash": "f83ffb42b42d882d94c8b7ba9e0f7721c90613fa3b8a27845ef02bcd7fb042ba",
+      "name": "alex-j-miller/tildehome",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 6161,
+      "deletions": 0
+    },
+    {
+      "hash": "6925320987fee791e2ad0c22308d4395ef6121f8ad07ebf275f427ab61471028",
+      "name": "alex-j-miller/current",
+      "commit_count": 0,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "88a942d6e2c9d03f436216625303fb538550f4e44584ee550de9890223aaae58",
+      "name": "alex-j-miller/numeric-word-sort",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 23250,
+      "deletions": 175
+    },
+    {
+      "hash": "e070334da62a1da5a12929304d8b6be175920f997ad8ef51d0b6df81c802fd15",
+      "name": "alex-j-miller/mirra",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 5162,
+      "deletions": 1
+    },
+    {
+      "hash": "7522e5dd976213cdee314e9682231a958e51239e4318a9b4d52ed469a7fc8ada",
+      "name": "alex-j-miller/4p-chess",
+      "commit_count": 2,
+      "my_commits": 2,
+      "additions": 1592,
+      "deletions": 4
+    },
+    {
+      "hash": "fa335233546dead90570244b97507fb0ebabf20e9b2f14d1529586efc295eda3",
+      "name": "alex-j-miller/advent-of-code-2025",
+      "commit_count": 5,
+      "my_commits": 5,
+      "additions": 5252,
+      "deletions": 0
+    },
+    {
+      "hash": "72d834e9fb6d9afab5db8fce8b63ebf239cfc7d2481ecd54eca5d1be28b9a799",
+      "name": "Wynncraft-Veterans/vetsmod",
+      "commit_count": 250,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "8e13a7e38062f42a25b5d0995fb508ae357dd5c823837f9955b55479e6d2e497",
+      "name": "Wynncraft-Veterans/vetserver",
+      "commit_count": 1,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "21226348296f212f1377ad49bdad6bd77212f13b507bf94c53a6a012cc6f2eca",
+      "name": "alex-j-miller/valentine",
+      "commit_count": 3,
+      "my_commits": 3,
+      "additions": 17963,
+      "deletions": 53
+    },
+    {
+      "hash": "e2b9cda665dd4e52607f132f2e2f6a05cadb508019bc16a3683fb8f1b0745978",
+      "name": "alex-j-miller/connect-the-stars",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "hash": "f42d846a9a654894e165ef48221f9ea25acb7c0fc3170fb1c3385e79674f56de",
+      "name": "alex-j-miller/classpilot",
+      "commit_count": 0,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "cea6e30f58746c392427d712908812cf0fd32be9c5d563be271cde0cd04883a2",
+      "name": "alex-j-miller/othello",
+      "commit_count": 3,
+      "my_commits": 3,
+      "additions": 21213,
+      "deletions": 16129
+    },
+    {
+      "hash": "42ddf8e1fb2c77c61b5241c853b749b483fdae105b398b174a2c881be52e6722",
+      "name": "Wynncraft-Veterans/auth-stack",
+      "commit_count": 468,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "8537553c3de59fface42374eb1718d46b9dcedcf04e9a03639d0112d2e7a6b46",
+      "name": "alex-j-miller/forge",
+      "commit_count": 4,
+      "my_commits": 4,
+      "additions": 13614,
+      "deletions": 5
+    },
+    {
+      "hash": "4ca704f5eb2fa4d7d12885f9c05d23ea300e069c4251628b6db274eaafd59910",
+      "name": "Wynncraft-Veterans/vets-anni",
+      "commit_count": 68,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "hash": "e34a3d20b8191f94a362cd232fa594ee118402040bd96d184a128c8f5694e043",
+      "name": "Wynncraft-Veterans/item-renderer",
+      "commit_count": 13,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    }
+  ]
+}

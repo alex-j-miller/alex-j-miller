@@ -1,0 +1,20 @@
+{
+  "repos": [
+    {
+      "name": "MICIP",
+      "url": "git@github.com:MiCHDevelopment/MICIP.git",
+      "commits": 4522,
+      "additions": 3594476,
+      "deletions": 2116149,
+      "net_loc": 1478327,
+      "current_loc": 679663
+    }
+  ],
+  "totals": {
+    "commits": 4522,
+    "additions": 3594476,
+    "deletions": 2116149,
+    "net_loc": 1478327,
+    "current_loc": 679663
+  }
+}
