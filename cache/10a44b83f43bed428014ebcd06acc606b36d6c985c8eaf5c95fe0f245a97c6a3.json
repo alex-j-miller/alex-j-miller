@@ -12,7 +12,7 @@
     {
       "hash": "ff96045da66f73ae9abf60b9f1a50082ba2f818dc8f400ac6dfef30dc66c175f",
       "name": "alex-j-miller/alex-j-miller",
-      "commit_count": 44,
+      "commit_count": 45,
       "my_commits": 25,
       "additions": 1905,
       "deletions": 669
@@ -124,7 +124,7 @@
     {
       "hash": "86561b7b64ce8d21b7466fe0a033df4a9032830476d5462fb42e262bf4f493c1",
       "name": "alex-j-miller/alex-j-miller.github.io",
-      "commit_count": 629,
+      "commit_count": 657,
       "my_commits": 19,
       "additions": 55731,
       "deletions": 55612
@@ -364,6 +364,14 @@
     {
       "hash": "68627818122111365c88e712af4f1c685c7d98cccaa2b598de0ec70c3d387c28",
       "name": "alex-j-miller/quackless",
+      "commit_count": 1,
+      "my_commits": 1,
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "hash": "cd0cdd467a28ba3dfe25caf2f448dd96206a0dcfbd5d619990c70b42595a97f3",
+      "name": "alex-j-miller/aria",
       "commit_count": 1,
       "my_commits": 1,
       "additions": 1,
