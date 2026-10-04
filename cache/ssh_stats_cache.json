@@ -3,18 +3,18 @@
     {
       "name": "MICIP",
       "url": "git@github.com:MiCHDevelopment/MICIP.git",
-      "commits": 4543,
-      "additions": 3602464,
-      "deletions": 2118227,
-      "net_loc": 1484237,
-      "current_loc": 685321
+      "commits": 4554,
+      "additions": 3604016,
+      "deletions": 2118818,
+      "net_loc": 1485198,
+      "current_loc": 685949
     }
   ],
   "totals": {
-    "commits": 4543,
-    "additions": 3602464,
-    "deletions": 2118227,
-    "net_loc": 1484237,
-    "current_loc": 685321
+    "commits": 4554,
+    "additions": 3604016,
+    "deletions": 2118818,
+    "net_loc": 1485198,
+    "current_loc": 685949
   }
 }
